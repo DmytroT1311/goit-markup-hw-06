@@ -42,7 +42,7 @@ button {
   padding: 0;
 }
 
-/*---------header--------*/
+/*---------ХЕДЕР--------*/
 
 .header {
   border-bottom: 1px solid #E7E9FC;
@@ -149,7 +149,7 @@ button {
   padding: 0;
 }
 
-/*------------mob-menu----------*/
+/*------------МОБ МЕНЮ----------*/
 .mob-menu {
   display: flex;
   justify-content: space-between;
@@ -241,7 +241,7 @@ text-transform: capitalize;
     justify-content: center;
     align-items: center;
 }
-/*---------hero section--------*/
+/*---------ХІРОУ--------*/
 
 .section-hero {
   background-color: #2E2F42;
@@ -303,7 +303,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 /*-----------------------------*/
 
-/*------advantage section-----*/
+/*------ПЕРЕВАГИ-----*/
 
 .advantages {
 padding: 96px 0;
@@ -352,9 +352,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 288px;
 }
-/*-----------------------------*/
 
-/*------------team------------*/
+
+/*------------КОМАНАДА------------*/
 
 .team {
 background-color: #F4F4FD;
@@ -448,9 +448,9 @@ background-color: #404BBF;
 fill: #f4f4fd;
 }
 
-/*-----------------------------*/
 
-/*----------portfolio---------*/
+
+/*----------ПОРТФОЛІО---------*/
 .portfolio {
 padding: 96px 0;
 }
@@ -537,9 +537,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/*-----------------------------*/
 
-/*-----------footer-----------*/
+/*-----------ПІДВАЛ-----------*/
 
 .footer {
 background-color:#2E2F42;
@@ -689,9 +688,7 @@ fill: #f4f4fd;
   margin-left: 16px;
 }
 
-/*------------------------------*/
-
-/*---------backdrop------------*/
+/*---------БЕКДРОП------------*/
 
 .backdrop {
   width: 100%;
@@ -923,14 +920,14 @@ border: none;
 
 /*------------------------------*/
 
-/*---------media768------------*/
+/*---------МЕДІА768------------*/
 
 @media screen and (min-width: 768px) {
   
   .container {
       max-width: 768px;
     }
-/*----------header----------*/
+/*----------ШАПКА----------*/
 
 .logo {
 padding: 0;
@@ -960,7 +957,7 @@ padding: 0;
   padding: 0;
 }
 
-/*----------hero----------*/
+/*----------ХІРОУ----------*/
 .section-hero {
   padding: 112px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-tab2x.jpg);
@@ -983,7 +980,7 @@ padding: 0;
   margin-top: 36px;
 }
 
-/*-------advantages-------*/
+/*-------ПЕРЕВАГИ-------*/
 
   .advantages-list {
     flex-direction: row;
@@ -1000,7 +997,7 @@ padding: 0;
     max-width: 356px;
   }
 
-  /*----------team----------*/
+  /*----------КОМАНДА----------*/
 
 .team-list {
   flex-direction: row;
@@ -1008,7 +1005,7 @@ padding: 0;
   gap: 64px 24px;
 }
 
-/*--------portfolio--------*/
+/*--------ПОРТФОЛІО--------*/
 
 .portfolio-item {
   width: 356px;
@@ -1022,7 +1019,7 @@ padding: 0;
   justify-content: center;
 }
 
-/*---------footer---------*/
+/*---------ФУТЕР---------*/
 
 .footer {
   padding-left: 108px;
@@ -1067,7 +1064,7 @@ text-align: left;
 
 }
 
-/*---------backdrop---------*/
+/*---------БЕКДРОП---------*/
 
 .modal {
 width: 408px;
@@ -1077,7 +1074,7 @@ padding: 72px 24px 24px;
 
 /*------------------------------*/
 
-/*---------media1158------------*/
+/*---------МЕДІА1158------------*/
 
 @media screen and (min-width: 1158px) {
   
@@ -1087,7 +1084,7 @@ padding: 72px 24px 24px;
       padding-right: 15px;
     }
     
-/*----------header----------*/
+/*----------ХЕДЕР----------*/
 
 .logo {
   margin-right: 76px;
@@ -1106,7 +1103,7 @@ padding: 24px 0;
   margin-left: 0;
 }
 
-/*----------hero----------*/
+/*----------ХІРОУ----------*/
 .section-hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-ds2x.jpg);
   padding-top: 188px;
@@ -1126,7 +1123,7 @@ padding: 24px 0;
   margin-top: 48px;
 }
     
-/*-------advantages-------*/
+/*-------ПЕРЕВАГИ-------*/
 
   .advantages {
       padding: 120px 0;
@@ -1166,7 +1163,7 @@ padding: 24px 0;
   width: calc((100% - 72px) / 4);
 }
 
-/*----------team----------*/
+/*----------КОМАНДА----------*/
 .team {
   padding: 120px 0;
 }
@@ -1180,7 +1177,7 @@ padding: 24px 0;
   width: calc((100% - 72px) / 4);
 }
 
-/*--------portfolio--------*/
+/*--------ПОРТФОЛІО--------*/
 .portfolio {
 padding: 120px 0;
 }
@@ -1195,7 +1192,7 @@ padding: 120px 0;
 width: calc((100% - 48px) / 3);
 }
 
-/*---------footer---------*/
+/*---------ФУТЕР---------*/
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
